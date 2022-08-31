@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+/* search bar container */
+.container,.header,.footer {
+  text-align: center;
+}
+.searchBar {
+  width: 350px;
+  padding: 10px;
+}
+
+.searchBtn {
+  margin-left: 0.5rem;
+  width: 70px;
+  cursor: pointer;
+
+}
+.searchBar,
+.searchBtn {
+  border-radius: 10px;
+  height: 40px;
+}
+
+.temperature,.header,.precard,.searchBar,.searchBtn {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+
+.weather1,.searchBar,
+.searchBtn {
+  margin-top: 1.5rem;
+}
+.searchBar,
+.searchBtn,.card{
+  border: none;
+  outline: none;
+}
+.card {
+  width: 40rem;
+  box-shadow: #fbab7e 3px 4px 5px, #f7ce68 2px 3px 4px;
+}
+
+img {
+  height: 90px;
+  width: 90px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.head,.card {
+  margin-top: 2rem;
+}
+
+.temp {
+  font-size: 4rem;
+}
+.pre {
+  padding: 3rem;
+}
+
+.forecastCard {
+  border: 4px solid #ca8451;
+  width: 250px;
+  margin: 2rem 0 1rem 12rem;
+}
+.precard {
+  margin-top: 5rem;
+  width: 40vw;
+}
+.forecastCard,.precard,.card{
+  border-radius: 20px;
+}
+.footer {
+  margin-top: 10rem;
+  color: #fbab7e;
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 20rem;
+  }
+  .forecastCard {
+    margin: 2rem 0 1rem 2rem;
+  }
+  .pre {
+    padding: 3rem;
+  }
+  .precard {
+    margin-top: 5rem;
+    width: 70vw;
+    border-radius: 20px;
+    background-color: #fbab7e;
+    background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  }
+}
+
+
